@@ -2,7 +2,6 @@ h1 {
   color: #fff;
   font-family:'lato', sans-serif;
   text-align: center;
-  font-size: 55px;
 }
 body {
   background-color: #2e2e2e
@@ -24,7 +23,7 @@ body {
   border-right:none;
   border-radius:3px;
   color:#a9a9a9;
-  font-size:29px;
+  font-size:15px;
 }
 .look:hover {
   border-bottom: grey 2px solid;
