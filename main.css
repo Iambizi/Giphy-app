@@ -35,9 +35,12 @@ body {
   margin-left: 5px;
   border-radius: 5px;
   border:none;
-  height: 25px;
-  width: 60px;
-  background-color: #FFB6C1;
+  height: 40px;
+  width: 80px;
+  background-color: #DB7093;
+  font-size:13px;
+  color: #fff;
+  font-family:'lato', sans-serif;
 }
 .go:hover,.trending:hover {
   cursor:pointer;
