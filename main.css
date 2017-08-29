@@ -29,9 +29,7 @@ body {
   border-bottom: grey 2px solid;
   background-color:rgba(220,220,220,0.3);
 }
-.look:focus {
-  outline:none;
-}
+
 .go,
 .trending{
   margin-left: 5px;
@@ -47,7 +45,7 @@ body {
 .go:active, .trending:active {
   transform: translatey(4px);
 }
-.go:focus,.trending:focus {
+.go:focus,.trending:focus,.look:focus {
   outline:none;
 }
 
