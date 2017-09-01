@@ -5,7 +5,7 @@ $(document).ready(function() {
     const giphyOptions = {
       q: word,
       api_key: `e729134c03124b8e9ada09ff218cd33b`,
-      limit: 50,
+      limit: 70,
       fmt: `json`
     };
     function displayGifs(data) {
@@ -23,7 +23,7 @@ $(document).ready(function() {
  
    const giphyOptions = {
     api_key: `e729134c03124b8e9ada09ff218cd33b`,   
-    limit: 50,
+    limit: 70,
     rating:"g",
     fmt: `json`, 
    };
