@@ -1,63 +1,91 @@
 h1 {
   color: #fff;
-  font-family:'lato', sans-serif;
+  font-family: "lato", sans-serif;
   text-align: center;
 }
 body {
-  background-color: #2e2e2e
+  background-color: #2e2e2e;
 }
 
 .giphy-searcher {
   margin-top: 20px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-
-.look {
-  border-bottom:#4d4d50 2px solid;
+#look {
+  border-bottom: #4d4d50 2px solid;
   background-color: transparent;
   width: 300px;
-  border-top:none;
-  border-left:none;
-  border-right:none;
-  border-radius:3px;
-  color:#a9a9a9;
-  font-size:15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 3px;
+  color: #a9a9a9;
+  font-size: 15px;
 }
-.look:hover {
+#look:hover {
   border-bottom: grey 2px solid;
-  background-color:rgba(220,220,220,0.3);
+  background-color: rgba(220, 220, 220, 0.3);
 }
 
-.go,
-.trending{
+#go,
+#trending {
   margin-left: 5px;
   border-radius: 5px;
-  border:none;
+  border: none;
   height: 40px;
   width: 80px;
-  background-color: #FF8C00;
-  font-size:13px;
+  background-color: #ff8c00;
+  font-size: 13px;
   color: #fff;
-  font-family:'lato', sans-serif;
+  font-family: "lato", sans-serif;
 }
-.go:hover,.trending:hover {
-  cursor:pointer;
+#more {
+  display: none;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 80px;
+  background-color: #ff8c00;
+  font-size: 13px;
+  color: #fff;
+  font-family: "lato", sans-serif;
 }
-.go:active, .trending:active {
+#more.active {
+  display: block;
+  margin: 30px auto;
+}
+#go:hover,
+#trending:hover,
+#more:hover {
+  cursor: pointer;
+}
+#go:active,
+#trending:active {
   transform: translatey(4px);
 }
-.go:focus,.trending:focus,.look:focus {
-  outline:none;
+#go:focus,
+#trending:focus,
+#look:focus {
+  outline: none;
 }
 
 .gifs-area {
   margin-top: 30px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
+/* .gifs-area.populate {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid orange;
+} */
 
 .item {
   margin-left: 3px;
